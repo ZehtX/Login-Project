@@ -10,7 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(/assets/img/Green-Grey.jpg);
+    background-image: url(../img/Green-Grey.jpg);
     background-size: cover;
 }
 
