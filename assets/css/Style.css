@@ -10,14 +10,14 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(../img/Green-Grey.jpg);
+    background-image: url(../img/violet-blue-orange.jpg);
     background-size: cover;
 }
 
 .container-form{
     display: flex;
-    margin: 25px;
-    height: 500px;
+    margin: 50px 25px;
+    height: 450px;
     max-width: 900px;
     transition: all 1s ease;
     border-radius: 20px;
@@ -138,11 +138,13 @@ body{
 
 .form label i{
     color: #a7a7a7;
+    font-size: 20px;
 }
 
 .form input[type="submit"]{
     background-color: #9191bd;
     color: #fff;
+    font-size: medium;
     border-radius: 20px;
     border: none;
     padding: 10px 15px;
@@ -165,6 +167,14 @@ body{
         font-size: 12px;
     }
 
+    .info-childs p{
+        font-size: 12.5px;
+    }
+
+    .form-information-childs p{
+        font-size: 13px;
+    }
+
 }
 
 @media screen and (max-width:580px){
@@ -175,6 +185,8 @@ body{
     .container-form{
         flex-direction: column;
         height: auto;
+        margin-top: 10px;
+        margin-bottom: 5%;
     }
 
     .information{
@@ -185,13 +197,20 @@ body{
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0;
     }
-    
+    .form{
+        margin-top: 19px;
+    }
+
     .form-information{
         width: 100%;
         padding: 20px;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         border-bottom-left-radius: 20px;
+        margin-bottom: 50px;
+    }
+    .form label i{
+        font-size: 23px;
     }
 }
 
@@ -205,5 +224,4 @@ body{
     .form-information{
         padding: 10px;
     }
-    
 }
