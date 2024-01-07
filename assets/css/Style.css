@@ -162,17 +162,6 @@ body{
 }
 /*Responsive*/
 
-@media screen and (max-width: 736px){
-
-    .container-form{
-        height: auto;
-    }
-
-    .info-childs h2{
-        font-size: 95%;
-    }
-}
-
 @media screen and (max-width:750px){
     html{
         font-size: 12px;
